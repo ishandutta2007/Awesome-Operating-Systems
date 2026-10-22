@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="45%" stop-color="#0c1322"/>
+      <stop offset="80%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080d1a"/>
+    </linearGradient>
+
+    <!-- Vibrant Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="30%" stop-color="#60a5fa"/>
+      <stop offset="65%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Bus & Accent Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Chip & Card Gradients -->
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Circuit Dot Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#334155" fill-opacity="0.4"/>
+      <line x1="0" y1="20" x2="40" y2="20" stroke="#1e293b" stroke-opacity="0.3" stroke-width="0.5"/>
+      <line x1="20" y1="0" x2="20" y2="40" stroke="#1e293b" stroke-opacity="0.3" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Embedded CSS Keyframe Animations -->
+    <style>
+      @keyframes pulseAmbient {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.05); }
+      }
+      @keyframes traceFlowRight {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes traceFlowLeft {
+        0% { stroke-dashoffset: -400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(7px); }
+      }
+      @keyframes ringRotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      .anim-pulse { animation: pulseAmbient 6s ease-in-out infinite; transform-origin: center; }
+      .anim-trace-1 { stroke-dasharray: 20 60; animation: traceFlowRight 8s linear infinite; }
+      .anim-trace-2 { stroke-dasharray: 25 70; animation: traceFlowLeft 9s linear infinite; }
+      .anim-float-1 { animation: floatSlow 5s ease-in-out infinite; }
+      .anim-float-2 { animation: floatReverse 6s ease-in-out infinite; }
+      .anim-rotate { animation: ringRotate 25s linear infinite; transform-origin: 1060px 180px; }
+      .anim-blink { animation: blinkCursor 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#gridPattern)"/>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="180" r="160" fill="#0284c7" opacity="0.12" filter="url(#glow)" class="anim-pulse"/>
+  <circle cx="600" cy="90" r="140" fill="#6366f1" opacity="0.10" filter="url(#glow)"/>
+  <circle cx="1040" cy="200" r="180" fill="#a855f7" opacity="0.15" filter="url(#glow)" class="anim-pulse"/>
+
+  <!-- Decorative Circuit Traces (Background) -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Circuit Left -->
+    <path d="M 40 50 L 220 50 L 280 110 L 480 110" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 40 50 L 220 50 L 280 110 L 480 110" fill="none" stroke="url(#cyanGrad)" stroke-width="2.5" class="anim-trace-1"/>
+
+    <!-- Bottom Circuit Left -->
+    <path d="M 60 310 L 240 310 L 300 250 L 460 250" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 60 310 L 240 310 L 300 250 L 460 250" fill="none" stroke="url(#emeraldGrad)" stroke-width="2" class="anim-trace-2"/>
+
+    <!-- Right Top Circuit -->
+    <path d="M 1160 50 L 980 50 L 920 110 L 760 110" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 1160 50 L 980 50 L 920 110 L 760 110" fill="none" stroke="url(#purpleGrad)" stroke-width="2.5" class="anim-trace-2"/>
+
+    <!-- Right Bottom Circuit -->
+    <path d="M 1140 310 L 960 310 L 900 250 L 740 250" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 1140 310 L 960 310 L 900 250 L 740 250" fill="none" stroke="url(#cyanGrad)" stroke-width="2" class="anim-trace-1"/>
+  </g>
+
+  <!-- Kernel Ring Diagram Representation on the Right (Ring 0 to Ring 3) -->
+  <g opacity="0.45" class="anim-rotate">
+    <circle cx="1060" cy="180" r="105" fill="none" stroke="#334155" stroke-dasharray="8 6" stroke-width="1.5"/>
+    <circle cx="1060" cy="180" r="75" fill="none" stroke="#0ea5e9" stroke-dasharray="12 8" stroke-width="2"/>
+    <circle cx="1060" cy="180" r="45" fill="none" stroke="#a855f7" stroke-dasharray="6 4" stroke-width="2"/>
+    <circle cx="1060" cy="180" r="20" fill="url(#titleGrad)" opacity="0.4"/>
+  </g>
+
+  <!-- Floating Tech Badges (Sides & Top, ensuring title area stays crystal clear) -->
+  <g class="anim-float-1">
+    <!-- Left Top Badge: Kernel Ring 0 -->
+    <rect x="65" y="85" width="150" height="34" rx="8" fill="url(#chipGrad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="82" cy="102" r="5" fill="#38bdf8"/>
+    <text x="96" y="107" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">RING 0 KERNEL</text>
+  </g>
+
+  <g class="anim-float-2">
+    <!-- Left Bottom Badge: Memory Paging / VMM -->
+    <rect x="75" y="235" width="165" height="34" rx="8" fill="url(#chipGrad)" stroke="#10b981" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="92" cy="252" r="5" fill="#10b981"/>
+    <text x="106" y="257" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">MEMORY PAGING</text>
+  </g>
+
+  <g class="anim-float-2">
+    <!-- Right Top Badge: Rust & C/C++ -->
+    <rect x="975" y="85" width="160" height="34" rx="8" fill="url(#chipGrad)" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="992" cy="102" r="5" fill="#f43f5e"/>
+    <text x="1006" y="107" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">RUST • C • POSIX</text>
+  </g>
+
+  <g class="anim-float-1">
+    <!-- Right Bottom Badge: Microkernel & RTOS -->
+    <rect x="965" y="235" width="170" height="34" rx="8" fill="url(#chipGrad)" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="982" cy="252" r="5" fill="#a855f7"/>
+    <text x="996" y="257" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">seL4 &amp; MICROKERNEL</text>
+  </g>
+
+  <!-- Center Foreground Content (Guaranteed Never Obscured) -->
+  <g id="foreground-content">
+    <!-- Mini Terminal Prompt Pill -->
+    <rect x="475" y="48" width="250" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <circle cx="493" cy="62" r="4" fill="#ef4444"/>
+    <circle cx="507" cy="62" r="4" fill="#eab308"/>
+    <circle cx="521" cy="62" r="4" fill="#22c55e"/>
+    <text x="536" y="66" fill="#94a3b8" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="500">root@kernel:~# boot -v</text>
+    <rect x="682" y="56" width="6" height="12" fill="#38bdf8" class="anim-blink"/>
+
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif" font-size="46" font-weight="900" letter-spacing="-1" fill="url(#titleGrad)" filter="url(#softGlow)">
+      AWESOME OPERATING SYSTEMS
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#e2e8f0" letter-spacing="0.2">
+      Curated Index of Monolithic Kernels, Microkernels, Enterprise Linux &amp; Hobbyist OSes
+    </text>
+
+    <!-- Core Pillar Badges in Horizontal Alignment -->
+    <g transform="translate(245, 235)">
+      <!-- Pillar 1 -->
+      <rect x="0" y="0" width="135" height="32" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="67" y="20" text-anchor="middle" fill="#7dd3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">🐧 Linux &amp; BSD</text>
+
+      <!-- Pillar 2 -->
+      <rect x="145" y="0" width="145" height="32" rx="16" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="217" y="20" text-anchor="middle" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">⚡ From-Scratch OS</text>
+
+      <!-- Pillar 3 -->
+      <rect x="300" y="0" width="135" height="32" rx="16" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="367" y="20" text-anchor="middle" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">🦀 Rust Kernels</text>
+
+      <!-- Pillar 4 -->
+      <rect x="445" y="0" width="135" height="32" rx="16" fill="#0f172a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="512" y="20" text-anchor="middle" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">🛡️ Formal seL4</text>
+
+      <!-- Pillar 5 -->
+      <rect x="590" y="0" width="120" height="32" rx="16" fill="#0f172a" stroke="#fbbf24" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="650" y="20" text-anchor="middle" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">⏱️ RTOS Core</text>
+    </g>
+
+    <!-- Bottom Architectural Footer Note -->
+    <text x="600" y="315" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#64748b">
+      x86_64 • AArch64 • RISC-V • POSIX • Monolithic • Hybrid • Microkernel Architecture
+    </text>
+  </g>
+
+  <!-- Outer Elegant Border Highlight -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#334155" stroke-opacity="0.6" stroke-width="1"/>
+</svg>
