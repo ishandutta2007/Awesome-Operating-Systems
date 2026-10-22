@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Operating-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Operating-Systems?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Operating-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Operating-Systems?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Operating-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Operating-Systems?style=flat-square&logo=github" alt="GitHub forks" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -86,9 +86,9 @@ The following commercial operating system platforms provide enterprise support a
 
 Discover the premier open-source operating systems, from-scratch monolithic kernels, memory-safe Rust OS implementations, and formally verified microkernels.
 
-> **Sorted by GitHub Stars (Descending)**
+> **Sorted by GitHub_Stars (Descending)**
 
-### 1. [Linux Kernel](https://github.com/torvalds/linux) [![GitHub stars](https://img.shields.io/github/stars/torvalds/linux?style=social&color=white)](https://github.com/torvalds/linux/stargazers)
+### 1. [Linux Kernel](https://github.com/torvalds/linux) [![GitHub_Stars](https://img.shields.io/github/stars/torvalds/linux?style=social&color=white)](https://github.com/torvalds/linux/stargazers)
 * **GitHub Repository**: [torvalds/linux](https://github.com/torvalds/linux) • **License**: GPL-2.0 • **Core Language**: C / Assembly / Rust
 * 🌟 **Key Architectural Highlights**:
   - The monolithic Unix-like kernel powering the modern internet, hyperscale cloud clusters, Android smartphones, embedded systems, and 100% of the world's top 500 supercomputers.
@@ -98,7 +98,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 2. [SerenityOS](https://github.com/SerenityOS/serenity) [![GitHub stars](https://img.shields.io/github/stars/SerenityOS/serenity?style=social&color=white)](https://github.com/SerenityOS/serenity/stargazers)
+### 2. [SerenityOS](https://github.com/SerenityOS/serenity) [![GitHub_Stars](https://img.shields.io/github/stars/SerenityOS/serenity?style=social&color=white)](https://github.com/SerenityOS/serenity/stargazers)
 * **GitHub Repository**: [SerenityOS/serenity](https://github.com/SerenityOS/serenity) • **License**: BSD-2-Clause • **Core Language**: C++
 * 🌟 **Key Architectural Highlights**:
   - A love letter to 1990s graphical user interfaces with a custom Unix-like core, built entirely from scratch in modern C++ without any third-party dependencies.
@@ -108,7 +108,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 3. [ReactOS](https://github.com/reactos/reactos) [![GitHub stars](https://img.shields.io/github/stars/reactos/reactos?style=social&color=white)](https://github.com/reactos/reactos/stargazers)
+### 3. [ReactOS](https://github.com/reactos/reactos) [![GitHub_Stars](https://img.shields.io/github/stars/reactos/reactos?style=social&color=white)](https://github.com/reactos/reactos/stargazers)
 * **GitHub Repository**: [reactos/reactos](https://github.com/reactos/reactos) • **License**: GPL-2.0 / LGPL-2.1 • **Core Language**: C / C++
 * 🌟 **Key Architectural Highlights**:
   - An open-source, clean-room reimplementation of the Windows NT operating system architecture, aiming for binary compatibility with Windows applications and device drivers.
@@ -118,7 +118,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 4. [Writing an OS in Rust (Blog OS)](https://github.com/phil-opp/blog_os) [![GitHub stars](https://img.shields.io/github/stars/phil-opp/blog_os?style=social&color=white)](https://github.com/phil-opp/blog_os/stargazers)
+### 4. [Writing an OS in Rust (Blog OS)](https://github.com/phil-opp/blog_os) [![GitHub_Stars](https://img.shields.io/github/stars/phil-opp/blog_os?style=social&color=white)](https://github.com/phil-opp/blog_os/stargazers)
 * **GitHub Repository**: [phil-opp/blog_os](https://github.com/phil-opp/blog_os) • **License**: MIT / Apache-2.0 • **Core Language**: Rust
 * 🌟 **Key Architectural Highlights**:
   - The gold standard pedagogical tutorial and kernel codebase created by Philipp Oppermann, demonstrating how to write an x86_64 operating system kernel in Rust from scratch.
@@ -128,7 +128,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 5. [Zephyr Project RTOS](https://github.com/zephyrproject-rtos/zephyr) [![GitHub stars](https://img.shields.io/github/stars/zephyrproject-rtos/zephyr?style=social&color=white)](https://github.com/zephyrproject-rtos/zephyr/stargazers)
+### 5. [Zephyr Project RTOS](https://github.com/zephyrproject-rtos/zephyr) [![GitHub_Stars](https://img.shields.io/github/stars/zephyrproject-rtos/zephyr?style=social&color=white)](https://github.com/zephyrproject-rtos/zephyr/stargazers)
 * **GitHub Repository**: [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) • **License**: Apache-2.0 • **Core Language**: C
 * 🌟 **Key Architectural Highlights**:
   - A scalable, safe, and secure real-time operating system (RTOS) hosted by the Linux Foundation, engineered specifically for resource-constrained IoT endpoints and embedded microcontrollers.
@@ -138,7 +138,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 6. [Redox OS](https://github.com/redox-os/redox) [![GitHub stars](https://img.shields.io/github/stars/redox-os/redox?style=social&color=white)](https://github.com/redox-os/redox/stargazers)
+### 6. [Redox OS](https://github.com/redox-os/redox) [![GitHub_Stars](https://img.shields.io/github/stars/redox-os/redox?style=social&color=white)](https://github.com/redox-os/redox/stargazers)
 * **GitHub Repository**: [redox-os/redox](https://github.com/redox-os/redox) • **License**: MIT • **Core Language**: Rust
 * 🌟 **Key Architectural Highlights**:
   - A modern, Unix-like microkernel operating system written from the ground up in Rust, designed around memory safety, modularity, and principle of least privilege.
@@ -148,7 +148,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 7. [Raspberry Pi OS Kernel & Tutorial](https://github.com/s-matyukevich/raspberry-pi-os) [![GitHub stars](https://img.shields.io/github/stars/s-matyukevich/raspberry-pi-os?style=social&color=white)](https://github.com/s-matyukevich/raspberry-pi-os/stargazers)
+### 7. [Raspberry Pi OS Kernel & Tutorial](https://github.com/s-matyukevich/raspberry-pi-os) [![GitHub_Stars](https://img.shields.io/github/stars/s-matyukevich/raspberry-pi-os?style=social&color=white)](https://github.com/s-matyukevich/raspberry-pi-os/stargazers)
 * **GitHub Repository**: [s-matyukevich/raspberry-pi-os](https://github.com/s-matyukevich/raspberry-pi-os) • **License**: MIT • **Core Language**: C / Assembly
 * 🌟 **Key Architectural Highlights**:
   - Practical, step-by-step educational operating system built directly for the 64-bit ARMv8-A architecture on Raspberry Pi 3 and 4 hardware.
@@ -158,7 +158,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 8. [xv6 RISC-V](https://github.com/mit-pdos/xv6-riscv) [![GitHub stars](https://img.shields.io/github/stars/mit-pdos/xv6-riscv?style=social&color=white)](https://github.com/mit-pdos/xv6-riscv/stargazers)
+### 8. [xv6 RISC-V](https://github.com/mit-pdos/xv6-riscv) [![GitHub_Stars](https://img.shields.io/github/stars/mit-pdos/xv6-riscv?style=social&color=white)](https://github.com/mit-pdos/xv6-riscv/stargazers)
 * **GitHub Repository**: [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) • **License**: MIT • **Core Language**: C
 * 🌟 **Key Architectural Highlights**:
   - MIT's modern pedagogical operating system reimplemented for the open 64-bit RISC-V instruction set architecture (used in MIT's 6.1810 / 6.828 Operating System Engineering course).
@@ -168,7 +168,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 9. [FreeBSD](https://github.com/freebsd/freebsd-src) [![GitHub stars](https://img.shields.io/github/stars/freebsd/freebsd-src?style=social&color=white)](https://github.com/freebsd/freebsd-src/stargazers)
+### 9. [FreeBSD](https://github.com/freebsd/freebsd-src) [![GitHub_Stars](https://img.shields.io/github/stars/freebsd/freebsd-src?style=social&color=white)](https://github.com/freebsd/freebsd-src/stargazers)
 * **GitHub Repository**: [freebsd/freebsd-src](https://github.com/freebsd/freebsd-src) • **License**: BSD-2-Clause • **Core Language**: C
 * 🌟 **Key Architectural Highlights**:
   - A mature, production-grade Unix-like operating system descending directly from UC Berkeley's Computer Systems Research Group (CSRG) BSD releases.
@@ -178,7 +178,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 10. [ToaruOS](https://github.com/klange/toaruos) [![GitHub stars](https://img.shields.io/github/stars/klange/toaruos?style=social&color=white)](https://github.com/klange/toaruos/stargazers)
+### 10. [ToaruOS](https://github.com/klange/toaruos) [![GitHub_Stars](https://img.shields.io/github/stars/klange/toaruos?style=social&color=white)](https://github.com/klange/toaruos/stargazers)
 * **GitHub Repository**: [klange/toaruos](https://github.com/klange/toaruos) • **License**: NCSA / UIUC • **Core Language**: C / Python
 * 🌟 **Key Architectural Highlights**:
   - A complete, clean-slate hobby operating system designed and maintained by K. Lange since 2011.
@@ -188,7 +188,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 11. [Tock Embedded OS](https://github.com/tock/tock) [![GitHub stars](https://img.shields.io/github/stars/tock/tock?style=social&color=white)](https://github.com/tock/tock/stargazers)
+### 11. [Tock Embedded OS](https://github.com/tock/tock) [![GitHub_Stars](https://img.shields.io/github/stars/tock/tock?style=social&color=white)](https://github.com/tock/tock/stargazers)
 * **GitHub Repository**: [tock/tock](https://github.com/tock/tock) • **License**: Apache-2.0 / MIT • **Core Language**: Rust
 * 🌟 **Key Architectural Highlights**:
   - An embedded operating system written in Rust designed for running multiple concurrent, mutually untrusted applications on resource-constrained microcontrollers (ARM Cortex-M and RISC-V).
@@ -198,7 +198,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 12. [seL4 Microkernel](https://github.com/seL4/seL4) [![GitHub stars](https://img.shields.io/github/stars/seL4/seL4?style=social&color=white)](https://github.com/seL4/seL4/stargazers)
+### 12. [seL4 Microkernel](https://github.com/seL4/seL4) [![GitHub_Stars](https://img.shields.io/github/stars/seL4/seL4?style=social&color=white)](https://github.com/seL4/seL4/stargazers)
 * **GitHub Repository**: [seL4/seL4](https://github.com/seL4/seL4) • **License**: GPL-2.0 • **Core Language**: C / Isabelle/HOL
 * 🌟 **Key Architectural Highlights**:
   - The world's fastest and most comprehensively formally verified microkernel, backed by mathematical proofs in the Isabelle/HOL theorem prover.
@@ -208,7 +208,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 13. [Asterinas](https://github.com/asterinas/asterinas) [![GitHub stars](https://img.shields.io/github/stars/asterinas/asterinas?style=social&color=white)](https://github.com/asterinas/asterinas/stargazers)
+### 13. [Asterinas](https://github.com/asterinas/asterinas) [![GitHub_Stars](https://img.shields.io/github/stars/asterinas/asterinas?style=social&color=white)](https://github.com/asterinas/asterinas/stargazers)
 * **GitHub Repository**: [asterinas/asterinas](https://github.com/asterinas/asterinas) • **License**: MPL-2.0 • **Core Language**: Rust
 * 🌟 **Key Architectural Highlights**:
   - A modern, safe, and general-purpose OS kernel written in Rust from scratch, pioneering the "framekernel" architecture to structurally isolate and minimize `unsafe` Rust.
@@ -218,7 +218,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 14. [Apache NuttX](https://github.com/apache/nuttx) [![GitHub stars](https://img.shields.io/github/stars/apache/nuttx?style=social&color=white)](https://github.com/apache/nuttx/stargazers)
+### 14. [Apache NuttX](https://github.com/apache/nuttx) [![GitHub_Stars](https://img.shields.io/github/stars/apache/nuttx?style=social&color=white)](https://github.com/apache/nuttx/stargazers)
 * **GitHub Repository**: [apache/nuttx](https://github.com/apache/nuttx) • **License**: Apache-2.0 • **Core Language**: C
 * 🌟 **Key Architectural Highlights**:
   - A real-time operating system with strict adherence to POSIX and ANSI standards, scaling seamlessly from 8-bit microcontrollers to 64-bit multi-core architectures.
@@ -228,7 +228,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 15. [Theseus OS](https://github.com/theseus-os/Theseus) [![GitHub stars](https://img.shields.io/github/stars/theseus-os/Theseus?style=social&color=white)](https://github.com/theseus-os/Theseus/stargazers)
+### 15. [Theseus OS](https://github.com/theseus-os/Theseus) [![GitHub_Stars](https://img.shields.io/github/stars/theseus-os/Theseus?style=social&color=white)](https://github.com/theseus-os/Theseus/stargazers)
 * **GitHub Repository**: [theseus-os/Theseus](https://github.com/theseus-os/Theseus) • **License**: MIT • **Core Language**: Rust
 * 🌟 **Key Architectural Highlights**:
   - A clean-slate research operating system written in Rust, reimagining the structural boundaries of system software.
@@ -238,7 +238,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 16. [Tilck](https://github.com/vvaltchev/tilck) [![GitHub stars](https://img.shields.io/github/stars/vvaltchev/tilck?style=social&color=white)](https://github.com/vvaltchev/tilck/stargazers)
+### 16. [Tilck](https://github.com/vvaltchev/tilck) [![GitHub_Stars](https://img.shields.io/github/stars/vvaltchev/tilck?style=social&color=white)](https://github.com/vvaltchev/tilck/stargazers)
 * **GitHub Repository**: [vvaltchev/tilck](https://github.com/vvaltchev/tilck) • **License**: BSD-2-Clause • **Core Language**: C
 * 🌟 **Key Architectural Highlights**:
   - A tiny, Linux-compatible monolithic kernel built from scratch for educational clarity, embedded micro-VMs, and fast boot times.
@@ -248,7 +248,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 17. [Haiku OS](https://github.com/haiku/haiku) [![GitHub stars](https://img.shields.io/github/stars/haiku/haiku?style=social&color=white)](https://github.com/haiku/haiku/stargazers)
+### 17. [Haiku OS](https://github.com/haiku/haiku) [![GitHub_Stars](https://img.shields.io/github/stars/haiku/haiku?style=social&color=white)](https://github.com/haiku/haiku/stargazers)
 * **GitHub Repository**: [haiku/haiku](https://github.com/haiku/haiku) • **License**: MIT • **Core Language**: C++
 * 🌟 **Key Architectural Highlights**:
   - An open-source desktop operating system inspired by BeOS, specifically architected and optimized for responsive personal computing and multimedia creation.
@@ -258,7 +258,7 @@ Discover the premier open-source operating systems, from-scratch monolithic kern
 
 ---
 
-### 18. [Managarm](https://github.com/managarm/managarm) [![GitHub stars](https://img.shields.io/github/stars/managarm/managarm?style=social&color=white)](https://github.com/managarm/managarm/stargazers)
+### 18. [Managarm](https://github.com/managarm/managarm) [![GitHub_Stars](https://img.shields.io/github/stars/managarm/managarm?style=social&color=white)](https://github.com/managarm/managarm/stargazers)
 * **GitHub Repository**: [managarm/managarm](https://github.com/managarm/managarm) • **License**: MIT • **Core Language**: C++
 * 🌟 **Key Architectural Highlights**:
   - A pragmatic microkernel-based operating system designed for x86_64 and AArch64 modern PCs.
@@ -424,3 +424,12 @@ If you find this curated Operating Systems ecosystem index educational, comprehe
 <div align="center">
   <sub>Curated with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the global systems engineering community.</sub>
 </div>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Operating-Systems&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Operating-Systems_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Operating-Systems_growth.svg">
+  </picture>
+</a>
